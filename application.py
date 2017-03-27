@@ -24,8 +24,9 @@ while count < ###:
         last_id = message['id']
         attach = message['attachments']
         if len(attach) > 0:
-            count += 1
+            
             if 'url' in attach[0]:
+                count += 1
                 url_list.append("Sender: " + str(message['name']))
                 url_list.append("Text: " + str(message['text']))
                 url_list.append("Pic: " + str(attach[0]['url']))
