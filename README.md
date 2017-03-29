@@ -11,8 +11,11 @@ Now functions as a GroupMe metrics bot:
 1. Counts how many messages have been sent to the group in total
 2. Counts the number of likes in the group in total
 3. Displays lists of people in the group sorted by:
+
   a. Most posts made
+  
   b. Most likes given
+  
   c. Most likes received
 
 
